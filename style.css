@@ -1,0 +1,109 @@
+/* Set the font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: black;
+    color: green;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style the navigation bar */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Style the sections */
+  section {
+    margin-bottom: 20px;
+    border: 2px solid green;
+    padding: 10px;
+  }
+  
+  section h2 {
+    color: green;
+  }
+  
+  section h3 {
+    color: darkgreen;
+  }
+  
+  section p {
+    line-height: 1.5;
+  }
+  
+  section ul {
+    margin-left: 20px;
+  }
+  
+  section li {
+    margin-bottom: 5px;
+  }
+  /* Style the sections */
+section {
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  section h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section li {
+    margin-bottom: 5px;
+  }
+  
+  /* Hover effect */
+  section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  a {
+    color: green;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+  }
+    
